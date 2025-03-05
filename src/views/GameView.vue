@@ -46,7 +46,8 @@ function randomizeArray(inputArray) {
 
 <template>
   <div v-if="games.length === 0">
-    <h2>Loading... Refresh every 5 seconds Render is loading up...</h2>
+    <h2>Loading... Refresh every 5 seconds if it's not loading, Render is taking its sweet time</h2>
+
   </div>
   <div v-else>
     <nav>
